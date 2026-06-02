@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js WebGPU MMD Loader Demo</title>
+    <script type="module" crossorigin src="assets/index-yESACnHC.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/index-C0Q5kXkq.css">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Canvas injected by JS -->
+
+      <!-- Loading overlay -->
+      <div id="loading">
+        <div class="spinner"></div>
+        <div id="loading-text">初始化渲染器…</div>
+      </div>
+
+      <!-- Error toast -->
+      <div id="error-toast"></div>
+
+      <!-- HUD -->
+      <div id="hud">
+        <!-- Top bar -->
+        <div id="top-bar">
+          <!-- <h1>Three.js WebGPU MMD Loader</h1> -->
+          <span class="badge" id="renderer-badge">WebGL</span>
+          <span class="badge" id="fps-badge">-- fps</span>
+        </div>
+
+        <!-- Bottom controls -->
+        <div id="controls">
+          <!-- Row 1: model + animation selects -->
+          <div class="control-row">
+            <span class="label">模型</span>
+            <select id="model-select">
+              <option value="models/kisaki/kisaki.pmx">kisaki</option>
+            </select>
+
+            <span class="label">动作</span>
+            <select id="anim-select">
+              <option value="animation/1.vmd">action1</option>
+            </select>
+
+            <button class="btn" id="load-btn" title="加载">↺</button>
+          </div>
+
+          <!-- Row 2: playback + progress -->
+          <div class="control-row">
+            <button class="btn" id="play-btn" title="播放/暂停">▶</button>
+            <button class="btn" id="stop-btn" title="停止">■</button>
+
+            <div id="progress-wrap">
+              <div id="progress-bar-bg">
+                <div id="progress-bar-fill"></div>
+              </div>
+              <span id="time-label">0:00 / 0:00</span>
+            </div>
+
+            <!-- <button class="btn active" id="ik-btn" title="IK 开关">IK</button>
+            <button class="btn active" id="edge-btn" title="描边开关">边</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
