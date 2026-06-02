@@ -1,5 +1,5 @@
 # mika-mmd-webgpu-page
-<img width="2275" height="1807" alt="{N{)GD X(D9XDGL))85$93G" src="https://github.com/user-attachments/assets/81a0c6d7-f27a-4953-bd96-8cdd8e88d48f" />
+<img width="2275" height="1807" alt="{N{)GD X(D9XDGL))85$93G" src="https://github.com/user-attachments/assets/f9072fdc-36c8-420e-9304-b5e7d9f4be26" />
 
 MMD animation rendered by three.js WebGPU.
 
