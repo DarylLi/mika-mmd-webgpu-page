@@ -4,9 +4,14 @@
 
 <img width="3218" height="1466" alt="8D W`K8JHP2@SVJ0UGQQCOQ" src="https://github.com/user-attachments/assets/dc73d7c9-2cff-4bea-b040-0fa5e324c318" />
 
+<img width="3840" height="2160" alt="EBP{8C$32D7 IVZPM66DCZT" src="https://github.com/user-attachments/assets/4a7441f0-e2b2-487d-8be1-c0622b581276" />
 
 MMD animation rendered by three.js WebGPU.
 
+### Upcoming Applications
+
+* **zhaifu-sama**: The extracted loader will be first applied to upgrade [zhaifu-sama](https://github.com/DarylLi/zhaifu-sama), bringing hardware-accelerated WebGPU MMD rendering to the project.
+  
 ## Features
 
 - WebGPU rendering engine
